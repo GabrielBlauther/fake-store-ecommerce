@@ -6,7 +6,7 @@ Plataforma de e-commerce completa desenvolvida durante meu programa de estágio 
 
 Sistema full-stack de loja virtual com autenticação, catálogo de produtos, carrinho de compras e sistema de avaliações.
 
-## 🚀 Tecnologias
+##  Tecnologias
 
 **Backend:**
 - Node.js + Express
@@ -32,7 +32,7 @@ Sistema full-stack de loja virtual com autenticação, catálogo de produtos, ca
     └── fakestore/
 ```
 
-## ⚙️ Instalação
+##  Instalação
 
 **Backend:**
 ```bash
