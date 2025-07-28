@@ -1,8 +1,8 @@
-# 🛒 Fake Store E-commerce
+#  Fake Store E-commerce
 
 Plataforma de e-commerce completa desenvolvida durante meu programa de estágio na **Marcopolo S.A.** como parte do treinamento técnico para preparação ao ambiente de trabalho real da empresa.
 
-## 📋 Sobre o Projeto
+##  Sobre o Projeto
 
 Sistema full-stack de loja virtual com autenticação, catálogo de produtos, carrinho de compras e sistema de avaliações.
 
@@ -48,7 +48,7 @@ npm install
 npm start
 ```
 
-## 🔗 API Endpoints
+##  API Endpoints
 
 - `POST /users/register` - Cadastro
 - `POST /users/login` - Login
@@ -56,22 +56,20 @@ npm start
 - `POST /cart/add` - Adicionar ao carrinho
 - `POST /reviews` - Criar avaliação
 
-## 🎯 Funcionalidades
+##  Funcionalidades
 
-- ✅ Autenticação JWT
-- ✅ CRUD de produtos
-- ✅ Carrinho de compras
-- ✅ Sistema de reviews
-- ✅ Interface responsiva
+-  Autenticação JWT
+-  CRUD de produtos
+-  Carrinho de compras
+-  Sistema de reviews
+-  Interface responsiva
 
-## 👨‍💻 Desenvolvimento
+##  Desenvolvimento
 
 Este projeto foi desenvolvido como parte do programa de estágio na **Marcopolo S.A.**, focando no aprendizado de tecnologias modernas e boas práticas de desenvolvimento para preparação ao ambiente corporativo.
 
 **Autor:** Gabriel Blauther  
 **Empresa:** Marcopolo S.A. (Estágio)  
-**Período:** 2024
+**Período:** 2025
 
 ---
-
-⭐ Projeto educacional - Programa de Estágio Marcopolo S.A.
