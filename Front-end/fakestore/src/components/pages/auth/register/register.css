@@ -1,0 +1,69 @@
+.login-page {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(to top, rgb(0, 0, 0), #22b48d, #ffffff);
+    gap: 30px;
+}
+
+.container-register {
+    width: 500px;
+    height: auto; /* ← MUDANÇA: de 600px para auto */
+    min-height: 600px; /* ← ADICIONAR: altura mínima */
+    max-height: 90vh; /* ← ADICIONAR: altura máxima */
+    padding: 30px;
+    background: #f9fcff;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    overflow-y: auto; /* ← ADICIONAR: scroll se necessário */
+}
+
+.login-text{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* ← ADICIONAR: Estilos para validação da senha */
+.password-validation {
+    background: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 12px;
+}
+
+.password-requirement {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 3px 0;
+    transition: color 0.3s ease;
+}
+
+.password-requirement.valid {
+    color: #28a745;
+}
+
+.password-requirement.invalid {
+    color: #dc3545;
+}
+
+.requirement-icon {
+    font-weight: bold;
+    font-size: 14px;
+}

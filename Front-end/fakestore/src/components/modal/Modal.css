@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+/* Modal específico - maior especificidade */
+.modal-background {
+    position: fixed !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    background-color: rgba(59, 59, 59, 0.5) !important;
+    backdrop-filter: blur(5px);
+    z-index: 9999 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-background .modal-content {
+    position: relative !important;
+    background: white !important;
+    height: 463px !important;
+    width: 1094px !important;
+    max-width: 90vw;
+    max-height: 90vh;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15) !important;
+    overflow: hidden !important;
+}
+
+.modal-background .fechar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.modal-background .fechar button{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 26px;
+    height: 26px;
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.modal-background .grade-produtos{
+    margin: 0 auto;
+    display: flex;
+    height: calc(100% - 46px);
+}
+
+.modal-background .imagem-produto{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-background .imagem-produto img{
+    width: 270px;
+    height: 380px;
+    object-fit: contain;
+}
+
+.modal-background .container-modal{
+    flex: 1;
+    padding: 0 31px;
+    overflow-y: auto;
+}
+
+/* Modal avaliacoes */
+.modal-background .avaliacoes{
+   margin: 10px 0;
+   display: flex;
+   flex-direction: column;
+   gap: 8px;
+}
+
+.modal-background .estrelas-e-media {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.modal-background .estrelas-container {
+    display: flex;
+    gap: 2px;
+}
+
+.modal-background .titulo-produto h3 {
+    margin: 0 0 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.modal-background .preco-produto{
+    padding: 22px 0;
+    color: #249B3E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.modal-background .linha-divisoria-cinza{
+    background-color: #EDEDED;
+    width: 100%;
+    height: 1px;
+    margin: 10px 0;
+}
+
+.modal-background .descricao-produto{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #8f8b8b;
+    margin: 20px 0;
+}
+
+.modal-background .categoria-produto{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    border: 1px solid #ededede7;
+    margin: 10px 0;
+}
+
+.modal-background .categoria-produto p{
+    margin: 0;
+    color: #8F8B8B;
+}
+
+.modal-background .carrinho-modal{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px 16px;
+    border-radius: 7px;
+    background-color: #30DDB0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.modal-background .carrinho-modal a{
+    text-decoration: none;
+    color: inherit;
+}
