@@ -10,7 +10,7 @@ Sistema full-stack de loja virtual com autenticação, catálogo de produtos, ca
 
 **Backend:**
 - Node.js + Express
-- MongoDB + Mongoose
+- MongoDB + Drive Nativo
 - JWT Authentication
 - Bcrypt
 
