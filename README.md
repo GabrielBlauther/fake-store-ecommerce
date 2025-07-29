@@ -1,7 +1,5 @@
 #  Fake Store E-commerce
 
-Plataforma de e-commerce completa desenvolvida durante meu programa de estágio na **Marcopolo S.A.** como parte do treinamento técnico para preparação ao ambiente de trabalho real da empresa.
-
 ##  Sobre o Projeto
 
 Sistema full-stack de loja virtual com autenticação, catálogo de produtos, carrinho de compras e sistema de avaliações.
@@ -66,10 +64,7 @@ npm start
 
 ##  Desenvolvimento
 
-Este projeto foi desenvolvido como parte do programa de estágio na **Marcopolo S.A.**, focando no aprendizado de tecnologias modernas e boas práticas de desenvolvimento para preparação ao ambiente corporativo.
-
 **Autor:** Gabriel Blauther  
-**Empresa:** Marcopolo S.A. (Estágio)  
 **Período:** 2025
 
 ---
